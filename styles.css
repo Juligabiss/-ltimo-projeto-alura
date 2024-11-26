@@ -1,0 +1,60 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e0f7fa, #b3e5fc);
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.passo {
+    display: none;
+    max-width: 800px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    color: #444;
+}
+
+button {
+    background: #03a9f4;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #0288d1;
+    transform: scale(1.1);
+}

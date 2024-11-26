@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Aventura Pelo Mundo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/inicio-viagem.png" alt="Cenário inicial da viagem">
+            <p>Bem-vindo(a) à aventura pelo mundo! Você terá a oportunidade de explorar locais incríveis e tomar decisões que mudarão sua jornada. Para onde deseja começar?</p>
+            <button class="btn-proximo" data-proximo="1">Europa</button>
+            <button class="btn-proximo" data-proximo="2">Ásia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/europa.png" alt="Paisagem europeia com castelos e montanhas">
+            <p>Você chega na Europa, terra de castelos antigos e montanhas majestosas. Onde deseja explorar primeiro?</p>
+            <button class="btn-proximo" data-proximo="3">Castelos medievais</button>
+            <button class="btn-proximo" data-proximo="4">Alpes</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/asia.png" alt="Paisagem asiática com templos e florestas">
+            <p>Na Ásia, você encontra templos antigos e paisagens deslumbrantes. Qual será seu próximo destino?</p>
+            <button class="btn-proximo" data-proximo="5">Templos históricos</button>
+            <button class="btn-proximo" data-proximo="6">Florestas tropicais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Os castelos medievais revelam segredos de um passado fascinante. Você encontra um artefato raro e segue para o próximo destino!</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a Ásia</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Nos Alpes, você tem vistas deslumbrantes e aventuras na neve. Este será um lugar inesquecível!</p>
+            <button class="btn-proximo" data-proximo="7">Explorar mais</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Os templos históricos mostram a riqueza cultural da Ásia. Você descobre lendas e histórias que marcaram eras passadas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir viagem</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Na floresta tropical, você encontra cachoeiras e uma biodiversidade única. É um paraíso natural para quem gosta de explorar.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar explorando</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/fim-viagem.png" alt="Fim da jornada">
+            <p>Parabéns! Você concluiu sua aventura pelo mundo. Esperamos que as memórias dessa viagem fiquem para sempre com você.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
